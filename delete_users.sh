@@ -8,7 +8,7 @@ usernames=("atanaka" "alee" "rpatel")
 # delete the users by looping through the array
 for username in "${usernames[@]}"
 do
-    sudo deluser -r "$username"
+    sudo deluser "$username"
 done
 
 echo "Successfully deleted users"
