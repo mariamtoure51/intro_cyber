@@ -11,4 +11,4 @@ sudo mkdir /home/rpatel/projects
 user1=atanaka
 user2=alee
 user3=rpatel
-touch homework1/home/"$user1"/homework && echo "My Answers" >> homework1/home/"$user1"/homework
+touch homework1/home/"$user1"/homework && echo "My Answers" > homework1/home/"$user1"/homework
